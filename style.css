@@ -1,0 +1,60 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+.container p, h1{
+    color: white;
+}
+.container{
+    width: 100vw;
+    height: 98vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-color: solid black;
+    
+}
+
+   
+.content{
+width: 70%;
+height: 70%;
+ background-image: url('./images/hero.png');   
+ background-size: 100% 100%;
+
+}
+
+nav ul{
+    list-style: none;
+}
+.button{
+    border-radius: 100px;
+    background-color: rgb(30,144,255);
+    padding: 20px;
+    color: white;
+    border-color: none;
+}
+
+
+
+.section1{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.welcome{
+    text-align: center;
+}
+
+.peace{
+    background-color: white;
+}
+
+.life{
+    background-color: white;
+}
+.sat{
+    background-color: rgb(30,144,255);
+}
+
