@@ -156,7 +156,7 @@
 
             </div>
             <div class="plans">
-                <div class="free">
+                <div class="free-premium">
                     <h1>FREE</h1><br><br>
                     <p> Organize across all <br> apps by hand </p> <br><br>
                     <div class="amount">
@@ -289,7 +289,7 @@
                     <button class="trybutton"> Try for free</button>
                 </div>
 
-                <div class="premium">
+                <div class="free-premium">
                     <h1>PREMIUM</h1><br><br>
                     <p> Organize across all <br> apps by hand </p> <br><br>
                     <div class="amount">
@@ -370,40 +370,164 @@
                     </div>
                 </div>
 
+                <!-- Appointment div starts here -->
+
                 <div class="appointment">
                     <div class="appointment-img">
                         <img src="./images/contact.png" class="appointment-img" alt="Family">
                     </div>
                     <div class="appointment-form">
                         <h1>Book Appointment</h1> <br><br>
-                        <label for="fullname" class="label"><b>Name*</b></label> <br> <br>
-                        <input type="text" placeholder="Full Name*" class="input-book"> <br>
 
-                        <label for="email" class="label"><b>Email Address*</b></label> <br> <br>
-                        <input type="text" placeholder="example@gmail.com*" class="input-book"> <br>
+                        <div class="appointment-form-details">
+                            <div class="appointment-name">
+                                <label for="fullname" class="label"><b>Name*</b></label>
+                            </div>
+                            <div class="appointment-name-input"> <input type="text" placeholder="Full Name*"
+                                    class="input-book" id="fullname"> 
+                            </div>
 
-                        <label for="department" class="label"><b>Department*</b></label> <br> <br>
-                        <input type="text" placeholder="Please Select" class="input-book"> <br>
+                            <div class="appointment-email">
+                                <label for="email" class="label"><b>Email Address*</b></label>
+                            </div>
+                            <div class="appointment-email-input">
+                                <input type="text" placeholder="example@gmail.com" class="input-book" id="email">
+                            </div>
 
-                        <label for="time" class="label"><b>Time*</b></label><br><br>
-                        <input type="text" placeholder="4:00 Available" class="input-book"> <br>
 
-                        <button class="button-appointment">Book Appointment</button>
+                            <div class="appointment-department">
+                                <label for="department" class="label"><b>Department*</b></label> 
+                            </div>
+
+                            <div class="appointment-department-input">
+                                <select name="department" class="input-book2" required>
+                                    <option value="" disabled selected>Please Select</option>
+                                    <option value="coffee">Please Select</option>
+                                </select>
+                            </div>
+
+
+                            <div class="appointment-time">
+                                <label for="time" class="label"><b>Time*</b></label><br>
+                            </div>
+
+                            <div class="appointment-time-input">
+                                <select name="department" class="input-book2" required>
+                                    <option value="" disabled selected>4:00 Available</option>
+                                    <option value="coffee">4:00 Available</option>
+                                </select>
+
+                            </div>
+
+                            <button class="button-appointment">Book Appointment</button>
+
+                        </div>
+
                     </div>
 
+                </div>
+                <!-- Appointment div ends here -->
+
+            </div>
+
+            <div class="contact">
+                <div class="consult">
+                    <h2>Consulting Agency for your Business</h2> <br>
+                    <p>the quick fox jumps over the lazy dog</p>
+                </div>
+                <div class="contact-us">
+                    <button class="button-contact">Contact Us</button>
                 </div>
 
             </div>
 
 
+            <div class="info">
+                <div class="company">
+                    <p><b>Company Info</b></p> <br>
+                    <p>About Us</p><br>
+                    <p>Carrier</p><br>
+                    <p>We are hiring</p><br>
+                    <p>Blog</p><br>
 
+                </div>
+                <div class="legal">
+                    <p><b>Legal</b></p> <br>
+                    <p>About Us</p><br>
+                    <p>Carrier</p><br>
+                    <p>We are hiring</p><br>
+                    <p>Blog</p><br>
 
+                </div>
 
+                <div class="c-features">
+                    <p><b>Features</b></p> <br>
+                    <p>Business Marketing</p><br>
+                    <p>User Analytic</p><br>
+                    <p>Live Chat</p><br>
+                    <p>Unlimited Support</p><br>
+
+                </div>
+
+                <div class="resources">
+                    <p><b>Resources</b></p> <br>
+                    <p>iOS & Android</p><br>
+                    <p>Watch a Demo</p><br>
+                    <p>Customers</p><br>
+                    <p>API</p><br>
+
+                </div>
+
+                <div class="touch">
+                    <p><b>Get in Touch</b></p> <br>
+                    <div class="phone">
+                        <div class="phone-icon">
+                            <ion-icon name="call-outline" class="icon-contact"></ion-icon>
+                        </div>
+                        <div class="phone-number">
+                            <p>(480) 555-0103</p><br>
+                        </div>
+
+                    </div>
+                    <div class="location">
+                        <div class="location-icon">
+                            <ion-icon name="location-outline" class="icon-contact"></ion-icon>
+                        </div>
+                        <div class="location-address">
+                            <p>4517 Washington Ave.</p><br>
+                        </div>
+
+                    </div>
+
+                    <div class="mail">
+                        <div class="mail-icon">
+                            <ion-icon name="mail-sharp" class="icon-contact"></ion-icon>
+                        </div>
+                        <div class="mail-address">
+                            <p>debra.holt@example.com</p><br>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="footer">
+                <div class="footer-info">
+                    <p>Made with Love by Figmaland All Rights Reserved</p>
+                </div>
+                <div class="socials">
+                    <div class="facebook"><ion-icon name="logo-facebook" class="socials-logo"></ion-icon> </div>
+                    <div class="instagram"><ion-icon name="logo-instagram" class="socials-logo"></ion-icon></div>
+                    <div class="twitter"><ion-icon name="logo-twitter" class="socials-logo"></ion-icon></div>
+                </div>
+            </div>
 
         </div>
 
     </div>
 
+   
 
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
